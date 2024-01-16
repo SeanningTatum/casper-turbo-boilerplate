@@ -1,8 +1,7 @@
 {
-  "name": "database",
+  "name": "auth",
   "version": "0.0.0",
   "private": true,
-  "main": "index.ts",
   "scripts": {
     "dev": "echo 'Add dev script here'",
     "build": "echo 'Add build script here'",
@@ -10,11 +9,11 @@
     "lint": "echo 'Add lint script here'"
   },
   "devDependencies": {
-    "@types/node": "^17.0.12",
-    "config": "workspace:*",
-    "prisma": "^5.8.1"
+    "config": "workspace:*"
   },
   "dependencies": {
-    "@prisma/client": "^5.8.1"
+    "@next-auth/prisma-adapter": "^1.0.7",
+    "database": "workspace:*",
+    "next-auth": "^4.24.5"
   }
 }
