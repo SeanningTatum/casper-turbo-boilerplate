@@ -13,11 +13,11 @@
     "@trpc/client": "^10.45.0",
     "@trpc/react-query": "^10.45.0",
     "@trpc/server": "^10.45.0",
+    "design-system": "workspace:*",
     "next": "^13.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-query": "3",
-    "ui": "workspace:*"
+    "react-query": "3"
   },
   "devDependencies": {
     "@types/node": "^17.0.12",

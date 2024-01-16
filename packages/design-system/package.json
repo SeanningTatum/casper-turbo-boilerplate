@@ -1,10 +1,10 @@
 {
-  "name": "ui",
+  "name": "design-system",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
     "lint": "eslint \"**/*.ts*\"",
-    "ui:add": "pnpm dlx shadcn-ui@latest add"
+    "design-system:add": "pnpm dlx shadcn-ui@latest add"
   },
   "devDependencies": {
     "@types/node": "^17.0.12",
