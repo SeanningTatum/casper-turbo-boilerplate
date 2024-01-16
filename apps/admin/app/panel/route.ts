@@ -14,7 +14,7 @@ function getBaseUrl(): string {
   }
 
   // assume localhost
-  return `http://localhost:${process.env.PORT ?? 3001}`;
+  return `http://localhost:${process.env.ADMIN_APP_PORT ?? 3001}`;
 }
 
 export function GET(): NextResponse {
