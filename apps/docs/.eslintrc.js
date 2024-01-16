@@ -1,4 +1,6 @@
+const custom = require("config/eslint.config");
+
 module.exports = {
   root: true,
-  extends: ["config/eslint.config.js"],
+  extends: [custom],
 };
