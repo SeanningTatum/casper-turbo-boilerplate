@@ -10,9 +10,8 @@
   },
   "devDependencies": {
     "@types/node": "^17.0.12",
-    "eslint-config-custom": "workspace:*",
-    "prisma": "^5.8.1",
-    "tsconfig": "workspace:*"
+    "config": "workspace:*",
+    "prisma": "^5.8.1"
   },
   "dependencies": {
     "@prisma/client": "^5.8.1"
