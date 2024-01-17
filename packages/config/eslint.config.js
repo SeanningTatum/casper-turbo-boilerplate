@@ -5,9 +5,8 @@ module.exports = {
     node: true,
   },
   extends: [
-    "next",
     "next/core-web-vitals",
-    "turbo",
+    "plugin:react/recommended",
     "prettier",
     "@kensho-technologies/eslint-config",
   ],
@@ -26,6 +25,7 @@ module.exports = {
     "@typescript-eslint/no-explicit-any": "warn",
     "prefer-destructuring": "off",
   },
+  plugins: ["react"],
   parserOptions: {
     babelOptions: {
       presets: [require.resolve("next/babel")],

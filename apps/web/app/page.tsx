@@ -5,7 +5,7 @@ import { Checkbox } from "design-system/components/ui/checkbox";
 
 import { trpc } from "@/lib/trpc";
 
-export default function Page() {
+export default function Page(): JSX.Element {
   const getAllUserQuery = trpc.user.getAll.useQuery();
 
   if (getAllUserQuery.isLoading) {
@@ -16,7 +16,7 @@ export default function Page() {
     <div className="h-screen">
       <h1>{JSON.stringify(getAllUserQuery.data?.data)}</h1>
       <Button>Click me</Button>
-      <Checkbox></Checkbox>
+      <Checkbox />
     </div>
   );
 }

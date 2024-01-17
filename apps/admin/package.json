@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@trpc/server": "^10.45.0",
+    "api": "workspace:*",
     "design-system": "workspace:*",
     "next": "^13.4.1",
     "react": "^18.2.0",
@@ -20,7 +21,6 @@
     "@types/node": "^17.0.12",
     "@types/react": "^18.0.22",
     "@types/react-dom": "^18.0.7",
-    "api": "workspace:*",
     "autoprefixer": "^10.4.14",
     "config": "workspace:*",
     "postcss": "^8.4.24",

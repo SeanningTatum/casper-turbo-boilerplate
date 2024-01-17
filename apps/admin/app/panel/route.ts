@@ -1,6 +1,5 @@
 import { renderTrpcPanel } from "trpc-panel";
 import { NextResponse } from "next/server";
-
 import { appRouter } from "api";
 
 function getBaseUrl(): string {
