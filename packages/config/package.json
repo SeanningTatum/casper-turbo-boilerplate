@@ -11,10 +11,15 @@
   "dependencies": {
     "eslint-config-next": "^13.4.1",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-react": "7.28.0",
-    "eslint-config-turbo": "^1.9.3"
+    "eslint-config-turbo": "^1.9.3",
+    "eslint-plugin-react": "7.28.0"
   },
   "publishConfig": {
     "access": "public"
+  },
+  "devDependencies": {
+    "@kensho-technologies/eslint-config": "^27.0.0",
+    "eslint": "^7.32.0",
+    "typescript": "^5.3.3"
   }
 }
