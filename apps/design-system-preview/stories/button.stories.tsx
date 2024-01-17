@@ -2,6 +2,7 @@ import { Button } from "design-system/components/ui/button";
 import type { Meta } from "@storybook/react";
 
 const meta: Meta<typeof Button> = {
+  title: "Button",
   component: Button,
   parameters: {
     layout: "centered",
