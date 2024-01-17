@@ -1,4 +1,4 @@
 module.exports = {
   reactStrictMode: true,
-  transpilePackages: ["design-sytem"],
+  transpilePackages: ["design-system"],
 };
