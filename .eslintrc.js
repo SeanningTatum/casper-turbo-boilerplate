@@ -1,10 +1,1 @@
-module.exports = {
-  root: true,
-  // This tells ESLint to load the config from the package `config/eslint`
-  extends: ["custom"],
-  settings: {
-    next: {
-      rootDir: ["apps/*/"],
-    },
-  },
-};
+module.exports = require("config/eslint.config");

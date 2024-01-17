@@ -1,8 +1,9 @@
 "use client";
 
+import { Button } from "design-system/components/ui/button";
+import { Checkbox } from "design-system/components/ui/checkbox";
+
 import { trpc } from "@/lib/trpc";
-import { Button } from "@ui/components/button";
-import { Checkbox } from "@ui/components/checkbox";
 
 export default function Page() {
   const getAllUserQuery = trpc.user.getAll.useQuery();

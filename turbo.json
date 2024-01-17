@@ -1,10 +1,11 @@
 {
   "$schema": "https://turbo.build/schema.json",
+  "globalEnv": ["VERCEL_URL", "ADMIN_APP_PORT"],
   "globalDotEnv": [".env"],
   "pipeline": {
     "build": {
       "dependsOn": ["^build"],
-      "outputs": [".next/**", "!.next/cache/**"]
+      "outputs": [".next/**", "!.next/cache/**", "storybook-static/**"]
     },
     "lint": {},
     "generate": {
